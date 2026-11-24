@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hafeez Mohammed, Enterprise Technology Executive</title>
+<meta name="description" content="Hafeez Mohammed, enterprise technology executive. Close to 20 years leading infrastructure, cloud and platform engineering organizations at JPMorganChase.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#13233F; --paper:#F4F6F8; --steel:#5A6B80; --rule:#D6DCE3; --green:#1D7357; --white:#FFFFFF;
+    --display:"IBM Plex Sans Condensed","Arial Narrow",sans-serif; --body:"IBM Plex Sans",system-ui,sans-serif;
+    --measure:68ch;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.6 var(--body)}
+  a{color:var(--green);text-underline-offset:3px;text-decoration-thickness:1px}
+  a:hover{text-decoration-thickness:2px}
+  :focus-visible{outline:2px solid var(--green);outline-offset:3px;border-radius:2px}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+
+  header.top{display:flex;justify-content:space-between;align-items:center;padding:22px 0;font-size:.95rem;color:var(--steel)}
+  header.top nav a{color:var(--steel);text-decoration:none;margin-left:22px}
+  header.top nav a:hover{color:var(--ink)}
+
+  .hero{padding:72px 0 40px}
+  .hero h1{font:600 clamp(2.9rem,7.2vw,5.6rem)/0.98 var(--display);letter-spacing:-0.015em;margin:0 0 22px}
+  .hero .role{font:500 clamp(1.2rem,2.2vw,1.55rem)/1.3 var(--display);color:var(--steel);margin:0 0 28px}
+  .hero p.lede{max-width:var(--measure);font-size:1.2rem;line-height:1.6;margin:0 0 30px}
+  .cta{display:flex;gap:14px;flex-wrap:wrap}
+  .btn{display:inline-block;padding:12px 20px;border:1.5px solid var(--ink);border-radius:3px;font-weight:500;text-decoration:none;color:var(--ink)}
+  .btn.primary{background:var(--ink);color:var(--white)}
+  .btn:hover{background:var(--green);border-color:var(--green);color:var(--white)}
+
+  /* signature: to-scale career track, 2007-2026 */
+  .track{margin:56px 0 24px}
+  .track h2{font:600 1.05rem/1.3 var(--display);color:var(--steel);margin:0 0 14px}
+  .bar{position:relative;display:grid;grid-template-columns:189fr 30fr 17fr;gap:3px;height:76px}
+  .seg{position:relative;background:var(--ink);color:var(--white);padding:10px 12px;overflow:hidden}
+  .seg:nth-child(2){background:#1F4A6E}
+  .seg:nth-child(3){background:var(--green)}
+  .seg b{display:block;font:600 1rem/1.15 var(--display)}
+  .seg span{font-size:.8rem;opacity:.85}
+  .ticks{display:grid;grid-template-columns:189fr 30fr 17fr;gap:3px;font-size:.8rem;color:var(--steel);margin-top:6px}
+  .ticks div:last-child{text-align:right}
+  .seg.short b,.seg.short span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .key{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px 28px;font-size:.92rem;color:var(--steel)}
+  .key i{display:inline-block;width:12px;height:12px;margin-right:8px;vertical-align:-1px}
+  .grow{transform-origin:left;animation:grow 900ms cubic-bezier(.2,.7,.2,1) both}
+  .seg:nth-child(2).grow{animation-delay:120ms}.seg:nth-child(3).grow{animation-delay:220ms}
+  @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  @media (prefers-reduced-motion:reduce){.grow{animation:none}}
+
+  section{padding:56px 0;border-top:1px solid var(--rule)}
+  section h2{font:600 clamp(1.7rem,3vw,2.2rem)/1.1 var(--display);margin:0 0 26px}
+  section p{max-width:var(--measure);margin:0 0 16px}
+
+  .outcomes{display:grid;grid-template-columns:minmax(150px,220px) 1fr;column-gap:36px;row-gap:26px;max-width:900px;margin:0;padding:0}
+  .outcomes dt{font:600 1.5rem/1.15 var(--display);color:var(--green)}
+  .outcomes dd{margin:0;max-width:62ch}
+
+  .roles{list-style:none;margin:0;padding:0;max-width:900px}
+  .roles li{display:grid;grid-template-columns:minmax(150px,220px) 1fr;column-gap:36px;padding:20px 0;border-bottom:1px solid var(--rule)}
+  .roles li:last-child{border-bottom:0}
+  .roles .when{color:var(--steel);font-size:.95rem}
+  .roles h3{font:600 1.25rem/1.25 var(--display);margin:0 0 6px}
+  .roles p{margin:0;max-width:62ch}
+
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:40px;max-width:900px}
+  .cols h3{font:600 1.15rem/1.25 var(--display);margin:0 0 8px}
+  .cols ul{margin:0;padding-left:18px}
+  .cols li{margin-bottom:6px}
+
+  footer{border-top:1px solid var(--rule);padding:56px 0 64px}
+  footer h2{font:600 clamp(1.7rem,3vw,2.2rem)/1.1 var(--display);margin:0 0 14px}
+  footer p{max-width:var(--measure)}
+  .fine{color:var(--steel);font-size:.85rem;margin-top:36px}
+
+  @media (max-width:720px){
+    .wrap{padding:0 20px}
+    header.top nav{display:none}
+    .hero{padding:40px 0 24px}
+    .bar,.ticks{grid-template-columns:1fr;height:auto}
+    .seg{min-height:64px}
+    .seg.short b,.seg.short span{position:static;width:auto;height:auto;clip:auto}
+    .key{display:none}
+    .scale{display:none}
+    .ticks{display:none}
+    .outcomes,.roles li,.cols{grid-template-columns:1fr;row-gap:6px}
+    .outcomes dd{margin-bottom:14px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <span>Hafeez Mohammed</span>
+    <nav aria-label="Sections"><a href="#outcomes">Outcomes</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>Hafeez Mohammed</h1>
+      <p class="role">Enterprise technology executive, infrastructure, cloud and platform engineering</p>
+      <p class="lede">Close to 20 years at JPMorganChase, leading progressively larger infrastructure, cloud and platform engineering organizations in a global financial services environment. I have built and run teams of up to 55 engineers across the US, UK and India, with full P&amp;L ownership, and I am most effective in roles that combine organizational leadership with technical credibility.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:hafeezmohammed.careers@gmail.com">Email me</a>
+        <a class="btn" href="https://www.linkedin.com/in/hmohamme">View LinkedIn</a>
+      </div>
+
+      <div class="track" aria-labelledby="track-h">
+        <h2 id="track-h">Career at JPMorganChase<span class="scale">, to scale</span></h2>
+        <div class="bar" role="list">
+          <div class="seg grow" role="listitem"><b>VP / Executive Director, Head of OS &amp; Infrastructure Engineering</b><span>Feb 2007 to Nov 2022</span></div>
+          <div class="seg grow short" role="listitem"><b>Senior Executive Director, Head of IaC &amp; Cloud Images</b><span>Nov 2022 to May 2025</span></div>
+          <div class="seg grow short" role="listitem"><b>Senior Executive Director, Performance Engineering</b><span>May 2025 to Oct 2026</span></div>
+        </div>
+        <div class="ticks" aria-hidden="true"><div>2007</div><div>2022</div><div>2026</div></div>
+        <ul class="key" aria-hidden="true">
+          <li><i style="background:#1F4A6E"></i>Senior Executive Director, Head of IaC &amp; Cloud Images, 2022 to 2025</li>
+          <li><i style="background:var(--green)"></i>Senior Executive Director, Performance Engineering, 2025 to 2026</li>
+        </ul>
+      </div>
+    </div>
+
+    <section id="outcomes" aria-labelledby="outcomes-h">
+      <h2 id="outcomes-h">Selected outcomes</h2>
+      <dl class="outcomes">
+        <dt>20K to 435K+</dt>
+        <dd>Terraform cloud workspaces during my tenure leading Infrastructure as Code across AWS, Azure and private cloud. The platform has since grown past 700K.</dd>
+        <dt>2x in 12 months</dt>
+        <dd>Increase in business application AWS Cloud adoption, driven by better automation, compliance tooling and internal stakeholder engagement.</dd>
+        <dt>82,000+ hosts</dt>
+        <dd>End-to-end patching automation across RHEL and Windows, reaching 80% automation coverage and a patching success rate above 98%.</dd>
+        <dt>70,000+ hosts in 7 days</dt>
+        <dd>Led the CVE-2019-0708 vulnerability response, reaching 90% remediation within a week.</dd>
+        <dt>Overnight recovery</dt>
+        <dd>Conceived and delivered the Hyper-V program for core authentication infrastructure. During a critical Active Directory outage it provisioned 15 virtual domain controllers overnight, restoring firm-wide authentication ahead of EMEA market open.</dd>
+        <dt>About 40% lower cost</dt>
+        <dd>Recommended an Oracle RAC design for the CIB Athena platform, delivering multi-data-center resiliency at roughly 40% lower cost than the MongoDB alternative.</dd>
+      </dl>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-h">
+      <h2 id="experience-h">Experience</h2>
+      <ol class="roles" reversed>
+        <li>
+          <div class="when">May 2025 to Oct 2026</div>
+          <div><h3>Senior Executive Director, Performance Engineering</h3>
+          <p>Directed performance engineering strategy across platform and core banking systems, including the CIO-mandated VDI migration from VMware to Microsoft Hyper-V. Delivered about 80 OVAL-based security configuration rules into Wiz.io for AWS EC2 Linux, and introduced LLM and AI tooling that saved engineers about 5 hours a week.</p></div>
+        </li>
+        <li>
+          <div class="when">Nov 2022 to May 2025</div>
+          <div><h3>Senior Executive Director, Head of Infrastructure as Code and Cloud Images</h3>
+          <p>Owned Terraform and IaC strategy and the OS and cloud image pipeline behind every AWS AMI used across Linux and Windows EC2 and container workloads. Led a 27-person global organization with full P&amp;L ownership of an $11M budget, and built a primary-customer partnership with HashiCorp that cut upgrade timelines by 50%.</p></div>
+        </li>
+        <li>
+          <div class="when">Feb 2007 to Nov 2022</div>
+          <div><h3>Vice President / Executive Director, Head of OS and Infrastructure Engineering</h3>
+          <p>Built and led a 55-person organization across the US, UK and India spanning Linux, Windows, configuration management, automation and platform engineering, owning OS strategy, security compliance and resiliency for the firm's global server estate. Achieved 98.38% compliance across 246 security policies on 45,000 servers, with Satisfactory Internal Audit ratings in 2019 and 2021.</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="creds-h">
+      <h2 id="creds-h">Credentials</h2>
+      <div class="cols">
+        <div>
+          <h3>Education and patents</h3>
+          <ul>
+            <li>B.S. Electrical Engineering, New Jersey Institute of Technology</li>
+            <li>Co-inventor, Systems and Methods for Server OS Provisioning, U.S. Patent 11,256,490 B1</li>
+            <li>Google AI Professional Certificate (2026)</li>
+            <li>Generative AI for Executives, AWS (2026)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Leadership and partners</h3>
+          <ul>
+            <li>CIO and CIO-1 engagement, cross-business program delivery</li>
+            <li>Vendor partnerships with IBM, HashiCorp, Red Hat, Microsoft and Amazon</li>
+            <li>JPMorganChase leadership programs: Leadership Skills for Experienced Managers, Elevate for Manager of Managers, Empower for Managers</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" aria-labelledby="contact-h">
+    <h2 id="contact-h">Get in touch</h2>
+    <p>I am open to senior leadership roles in infrastructure, cloud and platform engineering, remote in the US or in the New York and New Jersey area.</p>
+    <div class="cta">
+      <a class="btn primary" href="mailto:hafeezmohammed.careers@gmail.com">hafeezmohammed.careers@gmail.com</a>
+      <a class="btn" href="https://www.linkedin.com/in/hmohamme">LinkedIn</a>
+    </div>
+    <p class="fine">Based in New Jersey, United States.</p>
+  </footer>
+</div>
+</body>
+</html>
